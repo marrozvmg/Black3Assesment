@@ -5,12 +5,12 @@
   /*
    * Custom translucent site header
    */
-  
-  .site-header {
-    background-color: rgba(170, 127, 78, .85);
+
+.site-header {
+    background-color: rgba(218,165,32, .85);
     -webkit-backdrop-filter: saturate(180%) blur(20px);
     backdrop-filter: saturate(180%) blur(20px);
-  }
+}
   .site-header a {
     color: black;
     transition: ease-in-out color .15s;
@@ -54,7 +54,8 @@
   .button_buy{
     text-align: center;
     bottom: -15%;
-    width: 70%;
+    width: 100%;
+    max-width:1000px;
     background-color: #FFEBCC;
     color: black;
     border: beige;
@@ -72,14 +73,13 @@
     color: lightgray;
   }
 
-  .txt_size{
+.txt_size {
     position: relative;
     text-align: center;
-    bottom: -15%;
-    background-color: rgba(170, 127, 78, .90);;
+    background-color: rgba(170, 127, 78, .90);
     height: auto;
     border-radius: 10px;
-  }
+}
   .txt_size p {
     font-size: 125%;
   }
